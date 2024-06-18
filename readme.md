@@ -10,3 +10,12 @@ kafka-topics.bat --create --bootstrap-server localhost:9092 --replication-factor
  kafka-console-consumer.bat --topic test --bootstrap-server localhost:9092 --from-beginning 
 .\bin\windows\zookeeper-server-stop.bat .\config\zookeeper.properties 
 .\bin\windows\kafka-server-stop.bat .\config\server.properties
+
+
+git clone https://github.com/gaurav7yadav/DRDO-internship.git
+
+git pull 
+git add .
+git commit -m "Any message"
+git push
+
